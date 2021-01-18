@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: stackoverflowCli
+
+stackoverflow:
+  api:
+    url: https://api.stackexchange.com/2.2
+  auth:
+    client:
+      url: https://stackoverflow.com
+      clientId: 19502
+      scope: no_expiry
+      secret: pdkZcv7Zv2L5)hgmnIJNFQ((
+      key: j0d87tyRsAQrNEAI4XWfyw((
+    server:
+      host: localhost
+      port: ${random.port}
+      context: /auth
+      redirectUri: "http://${stackoverflow.auth.server.host}:${stackoverflow.auth.server.port}${stackoverflow.auth.server.context}"
+      timeout: 60
