@@ -10,8 +10,8 @@ stackoverflow:
       url: https://stackoverflow.com
       clientId: 19502
       scope: no_expiry
-      secret: pdkZcv7Zv2L5)hgmnIJNFQ((
-      key: j0d87tyRsAQrNEAI4XWfyw((
+      secret: 
+      key: 
     server:
       host: localhost
       port: ${random.port}
