@@ -1,19 +1,6 @@
 # stackoverflow-cli
 
 A simple and unofficial Stack Overflow CLI tool build with Java 11, Micronaut Framework, Picocli, and compiled to the native executable file with the GraalVM.
-
-
-## Links and resources
-
-* My YouTube video https://www.youtube.com/watch?v=Xdcg4Drg1hc
-* SDKMAN! https://sdkman.io/
-* Micronaut Launch https://micronaut.io/launch/
-* Micronaut Picocli Integration Guide https://micronaut-projects.github.io/micronaut-picocli/latest/guide/
-* Micronaut 2.0.0 Documentation https://docs.micronaut.io/latest/guide/index.html
-* Picocli Quick Guide https://picocli.info/quick-guide.html
-* Picocli Documentation https://picocli.info/
-* GraalVM native-image documentation https://www.graalvm.org/docs/reference-manual/native-image/
-* Stack Exchange API /search documentation https://api.stackexchange.com/docs/search
   
 
 ## Build the JAR file
